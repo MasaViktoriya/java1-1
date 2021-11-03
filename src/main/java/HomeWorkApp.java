@@ -4,13 +4,14 @@ public class HomeWorkApp {
         checkSumSign();
         printColor();
         compareNumbers();
-
     }
+
     private static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
+
     private static void checkSumSign() {
         int a = 300;
         int b = 4;
@@ -21,6 +22,7 @@ public class HomeWorkApp {
             System.out.println("Сумма отрицательная");
         }
     }
+
     private static void printColor() {
         int value = 5000;
         if(value <= 0) {
@@ -31,6 +33,7 @@ public class HomeWorkApp {
             System.out.println("Зеленый");
         }
     }
+
     private static void compareNumbers() {
         int a = 112;
         int b = 102400;
